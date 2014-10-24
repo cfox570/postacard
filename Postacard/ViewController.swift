@@ -28,6 +28,7 @@ class ViewController: UIViewController {
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         // show the the Label and show the sender name
+        // test committs
 
         messageLabel.text = enterNameTextField.text
         + ": " + enterMessageTextField.text
